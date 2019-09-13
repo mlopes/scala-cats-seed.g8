@@ -8,6 +8,7 @@ ThisBuild / organizationName := "example"
 lazy val root = (project in file("."))
   .settings(
     name := "$name$",
+    libraryDependencies += catsEffect,
     libraryDependencies += scalaTest % Test
   )
 
