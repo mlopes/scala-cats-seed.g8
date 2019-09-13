@@ -4,6 +4,9 @@ This is a [Giter8][g8] template for Scala with Cats using IOApp.
 sbt new mlopes/scala-ioapp-seed.g8
 ```
 
+This is a fork of `scala/scala-seed.g8` modified to use `cats.effect.IOApp`
+
+
 Template license
 ----------------
 Written in 2016-2018 by Lightbend, Inc.
