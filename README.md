@@ -1,7 +1,7 @@
-This is a [Giter8][g8] template for Scala.
+This is a [Giter8][g8] template for Scala with Cats using IOApp.
 
 ```
-sbt new scala/scala-seed.g8
+sbt new mlopes/scala-ioapp-seed.g8
 ```
 
 Template license
