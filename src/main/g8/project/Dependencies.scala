@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
 
   object Test {
-    private val scalatestVersion = "3.0.8"
+    private val scalatestVersion = "3.1.0"
 
     val deps = Seq(
       "org.scalatest" %% "scalatest" % scalatestVersion  % "test"
