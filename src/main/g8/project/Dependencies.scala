@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
 
   object Test {
-    private val scalatestVersion = "3.1.0"
+    private val scalatestVersion = "3.2.3"
 
     val deps = Seq(
       "org.scalatest" %% "scalatest" % scalatestVersion  % "test"
@@ -11,8 +11,8 @@ object Dependencies {
   }
 
   object Cats {
-    private val catsEffectVersion = "2.0.0"
-    private val catsVersion = "2.1.0-RC2"
+    private val catsEffectVersion = "2.3.0-M1"
+    private val catsVersion = "2.2.0"
 
     val deps = Seq(
         "org.typelevel" %% "cats-effect" % catsEffectVersion
